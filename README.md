@@ -1,2 +1,3 @@
 # locallibrary
-Django框架联系
+Django框架练习
+
