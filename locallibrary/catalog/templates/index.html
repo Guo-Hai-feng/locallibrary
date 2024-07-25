@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+  <h1>凡是过往，皆为序章</h1>
+
+ 
+  <h2>当下图书库存:</h2>
+  <ul>
+    <li><h3><strong>图书:</strong> {{ num_books }}</h3></li>
+    <li><h3><strong>副本:</strong> {{ num_instances }}</h3></li>
+    <li><h3><strong>可用副本:</strong> {{ num_instances_available }}</h3></li>
+    <li><h3><strong>作者:</strong> {{ num_authors }}</h3></li>
+  </ul>
+{% endblock %}
